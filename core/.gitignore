@@ -3,4 +3,3 @@ __PYCACHE__
 *.pyc
 .env
 .idea
-template/*
