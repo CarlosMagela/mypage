@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-_@c(s@ruiqq5p+i+5%9&-!o%81(v=svx^9jy2by-xr&ar(@ads
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [https://git.heroku.com/curriculum-cem.git]
+ALLOWED_HOSTS = ['https://git.heroku.com/curriculum-cem.git']
 
 
 # Application definition
