@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_@c(s@ruiqq5p+i+5%9&-!o%81(v=svx^9jy2by-xr&ar(@ads'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = [https://git.heroku.com/curriculum-cem.git]
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Aula01CSS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [' https://git.heroku.com/curriculum-cem.git'],
+        'DIRS': ['*'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
