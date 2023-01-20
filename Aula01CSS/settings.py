@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Aula01CSS.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['Templates'],
+        'DIRS': [' https://git.heroku.com/curriculum-cem.git'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
