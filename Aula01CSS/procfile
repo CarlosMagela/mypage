@@ -1,1 +1,1 @@
-web: gunicorn Aula01CSS.wsgi -log-file -
+web: gunicorn Aula01CSS.wsgi --log-file -
